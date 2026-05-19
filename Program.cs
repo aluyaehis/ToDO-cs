@@ -4,7 +4,6 @@ using TaskManagerAPI.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. PULL THE CONNECTION STRING FROM APPSETTINGS.JSON HERE:
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 30));
