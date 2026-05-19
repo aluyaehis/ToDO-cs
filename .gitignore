@@ -1,0 +1,17 @@
+# 1. Protect secrets and passwords
+appsettings.json
+appsettings.Development.json
+
+# 2. Block C# compilation and build folders
+bin/
+obj/
+
+# 3. Block IDE local user settings (VS Code / Visual Studio)
+.vscode/
+.vs/
+*.user
+*.suo
+
+# 4. OS metadata files
+.DS_Store
+Thumbs.db
